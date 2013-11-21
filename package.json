@@ -1,0 +1,45 @@
+{
+  "name": "grunt-mongodb-fixtures",
+  "description": "Load mongodb fixtures for development",
+  "version": "0.1.0",
+  "homepage": "https://github.com/passkey/grunt-mongodb-fixtures",
+  "author": {
+    "name": "Kieu Anh Tuan",
+    "email": "passkey1510@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/passkey/grunt-mongodb-fixtures.git"
+  },
+  "bugs": {
+    "url": "https://github.com/passkey/grunt-mongodb-fixtures/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/passkey/grunt-mongodb-fixtures/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "pow-mongodb-fixtures": "~0.10.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin", "mongodb", "fixtures"
+  ]
+}

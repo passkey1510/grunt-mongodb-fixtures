@@ -1,7 +1,7 @@
 {
   "name": "grunt-mongodb-fixtures",
   "description": "Load mongodb fixtures for development",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/passkey1510/grunt-mongodb-fixtures",
   "author": {
     "name": "Kieu Anh Tuan",

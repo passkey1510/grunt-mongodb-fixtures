@@ -13,13 +13,20 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('mongodb_fixtures', 'Load mongodb fixtures for development', function() {
     var done = this.async();
     var mongoFixtures = fixtures.connect(this.options().connection);
+    var i = this.filesSrc.length;
     this.filesSrc.forEach(function(fixturePath) {
       var fixturePath = path.resolve(fixturePath);
       mongoFixtures.clearAllAndLoad(fixturePath, function(err) {
         if (err) {
           console.error(err);
         }
-        done();
+        else {
+          console.log("File", fixturePath, "successfully loaded.")
+        }
+        i -= 1;
+        if (i == 0) {
+          done();
+        }
       })
     });
   });

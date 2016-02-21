@@ -37,9 +37,11 @@
     "pow-mongodb-fixtures": "~0.10.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin", "mongodb", "fixtures"
+    "gruntplugin",
+    "mongodb",
+    "fixtures"
   ]
 }
